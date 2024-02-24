@@ -22,9 +22,7 @@ Simply add the script in a web page and use the tags
     wallet-addr="0x0D5C8B7cC12eD8486E1E0147CC0c3395739F138d"
     options="pfp,description,tags"
     theme="light"
->
-
-</<lukso-powerups>
+></lukso-powerups>
 ```
 
 ## Networks
