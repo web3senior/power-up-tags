@@ -116,14 +116,7 @@ class LuksoPowerUp extends HTMLElement {
     this.attachShadow({
       mode: "open",
     })
-
-    console.log(this.shadowRoot)
-
     this.shadowRoot.appendChild(tmpl.content.cloneNode(true))
-
-    // this.shadowRoot.querySelector(".btn-home").addEventListener("click", () => {
-    //   console.log("Hi", this.walletAddress)
-    // })
   }
 
   loading() {
@@ -157,7 +150,7 @@ class LuksoPowerUp extends HTMLElement {
       .then((response) => response.json())
       .then(async (data) => {
         console.log(data)
-        const hex = data.result.substr(210, 106) //98 mainnet
+        const hex = data.result.substr(210, 106)
 
         console.log(`hex`, hex)
 
