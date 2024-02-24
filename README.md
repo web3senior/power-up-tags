@@ -13,7 +13,7 @@ Break down complex Dapp interfaces into smaller, reusable elements for cleaner c
 Improved developer experience: Build complex interfaces with familiar web development concepts.
 
 
-## How to use
+## How to use tag
 Simply add the script in a web page and use the tags
 
 ```
@@ -31,3 +31,15 @@ Simply add the script in a web page and use the tags
 Supports both mainnet and testnet.
 
 to bundle your application
+
+### Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+
+[Amir Rahimi](https://universallink.me/u/atenyun) - Fullstack blockchain developer
