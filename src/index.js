@@ -146,7 +146,7 @@ class LuksoPowerUp extends HTMLElement {
       redirect: "follow",
     }
 
-    fetch(`https://rpc${this.getAttribute(`network`) === "testnet" ? ".testnet" : ""}.lukso.gateway.fm`, requestOptions)
+    fetch(`https://42.rpc.thirdweb.com`, requestOptions)
       .then((response) => response.json())
       .then(async (data) => {
         console.log(data)
